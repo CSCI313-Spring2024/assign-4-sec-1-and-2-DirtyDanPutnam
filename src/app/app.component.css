@@ -1,0 +1,17 @@
+header {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.btn-section {
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+button {
+  margin: 10px;
+}
+
+.main {
+  margin: 40px;
+}

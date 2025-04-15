@@ -1,0 +1,14 @@
+<div class="contacts">
+  <div class="contact-card">
+    <div class="contact-name">{{ contact.fName }} {{ contact.lName }}</div>
+    <div>{{ contact.email }}</div>
+    <div>{{ contact.phoneNum }}</div>
+    <hr />
+    <div class="buttons">
+      <button class="btn btn-warning" [routerLink]="['edit', id, contact]">
+        Edit
+      </button>
+      <button class="btn btn-danger" (click)="deleteContact()">Delete</button>
+    </div>
+  </div>
+</div>

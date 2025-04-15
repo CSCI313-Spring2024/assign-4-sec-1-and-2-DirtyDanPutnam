@@ -1,0 +1,21 @@
+<div class="add-contact">
+  <div class="add-contact-card">
+    <div class="title">Add Contact</div>
+    <hr />
+    <p>First Name:</p>
+    <input type="text" [(ngModel)]="fname" />
+    <p>Last Name:</p>
+    <input type="text" [(ngModel)]="lname" />
+    <p>Email:</p>
+    <input type="text" [(ngModel)]="email" />
+    <p>Phone Number:</p>
+    <input type="text" [(ngModel)]="phoneNum" />
+    <hr />
+    <div class="buttons">
+      <button class="btn btn-warning" routerLink="" (click)="addContact()">
+        Add
+      </button>
+      <button class="btn btn-danger" routerLink="">Cancel</button>
+    </div>
+  </div>
+</div>

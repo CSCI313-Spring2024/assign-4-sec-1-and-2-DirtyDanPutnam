@@ -1,0 +1,7 @@
+<div class="main">
+  <div class="contacts">
+    @for(con of CONTACT_LIST; track con; let i = $index){
+    <app-contact [contact]="con" [id]="i"></app-contact>
+    }
+  </div>
+</div>
